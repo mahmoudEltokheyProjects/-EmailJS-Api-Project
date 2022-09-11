@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="formDiv">
+            <!-- "email_to"  -->
+            <label for="email_to">email to</label>
+            <input type="text" id="email_to" />
+            <!-- "from_name"  -->
+            <label for="from_name">From</label>
+            <input type="text" id="from_name" />
+            <!-- "to_name"  -->
+            <label for="to_name">to</label>
+            <input type="text" id="to_name" />
+            <!-- message textarea -->
+            <label for="message">message</label>
+            <textarea id="message"></textarea>
+            <!-- submit button -->
+            <button class="send">Send</button>
+            
+        </div>
+    </body>
+    <!-- myScript.js File -->
+    <script src="js/myScript.js"></script>
+    <!-- Email Js -->
+    <script src="js/email.min.js"></script>
+    <script type="text/javascript">
+      emailjs.init('R34AvenKw_CbUjhZ3')
+    </script>
+</html>
+
+

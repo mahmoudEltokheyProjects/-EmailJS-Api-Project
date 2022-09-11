@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body
+{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.formDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 2px rgba(0,0,0,0.4);
+    min-height: 400px;
+    width: 350px;
+    padding: 30px 20px ;
+}
+/* all elements inside form  */
+.formDiv > *
+{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.formDiv label 
+{
+    font-size: 25px;
+    color: #232323;
+    font-style: italic;
+    font-weight: 300;
+}
+.formDiv input , .formDiv textarea
+{
+    border: 0 ;
+    background-color: transparent;
+    box-shadow: inset 0 0 2px rgba(0,0,0,0.4);
+    padding: 10px;
+    outline: none;
+}
+.formDiv button
+{
+    background-color: #2196f3;
+    color: #fff;
+    font-size: 18px;
+    font-style: italic;
+    padding: 10px 20px ;
+    width: 120px ;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+    cursor: pointer;
+    align-self: flex-start;
+}
